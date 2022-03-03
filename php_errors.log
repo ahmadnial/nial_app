@@ -1,0 +1,142 @@
+[26-Feb-2022 12:05:20 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 12:17:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 12:39:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:21:14 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:38 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:41 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:22:42 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:26:34 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function sqlsrv_connect() in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:34:55 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: sqlsrv_connect() expects at most 2 arguments, 3 given in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 D:\xampp\htdocs\noob\conn.php(5): sqlsrv_connect('192.168.10.1', 'sa', 'b35mart1c5')
+#1 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 13:36:38 Asia/Jakarta] PHP Fatal error:  Uncaught ArgumentCountError: sqlsrv_connect() expects at most 2 arguments, 3 given in D:\xampp\htdocs\noob\conn.php:5
+Stack trace:
+#0 D:\xampp\htdocs\noob\conn.php(5): sqlsrv_connect('192.168.10.1', 'sa', 'b35mart1c5')
+#1 {main}
+  thrown in D:\xampp\htdocs\noob\conn.php on line 5
+[26-Feb-2022 14:01:30 Asia/Jakarta] PHP Warning:  include(koneksi.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\noob\coba.php on line 11
+[26-Feb-2022 14:01:30 Asia/Jakarta] PHP Warning:  include(): Failed opening 'koneksi.php' for inclusion (include_path='.;C:\php\pear') in D:\xampp\htdocs\noob\coba.php on line 11
+[26-Feb-2022 14:04:36 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:04:36 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:04:36 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:04:47 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:04:47 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:04:47 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:04:51 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:04:51 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:04:51 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:04:57 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:04:57 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:06:22 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:06:22 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:06:22 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:06:28 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:06:28 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:06:28 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:06:46 Asia/Jakarta] PHP Warning:  Undefined array key "ip_nama" in D:\xampp\htdocs\noob\coba.php on line 37
+[26-Feb-2022 14:06:46 Asia/Jakarta] PHP Warning:  Undefined array key "ip_alamat" in D:\xampp\htdocs\noob\coba.php on line 39
+[26-Feb-2022 14:06:46 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:09:14 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:10:34 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:10:38 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:12:08 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:12:56 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:14:55 Asia/Jakarta] PHP Parse error:  syntax error, unexpected identifier "lur", expecting "," or ";" in D:\xampp\htdocs\noob\coba.php on line 46
+[26-Feb-2022 14:15:11 Asia/Jakarta] PHP Parse error:  syntax error, unexpected identifier "lur", expecting "," or ";" in D:\xampp\htdocs\noob\coba.php on line 46
+[26-Feb-2022 14:15:25 Asia/Jakarta] PHP Parse error:  Unclosed '{' on line 35 in D:\xampp\htdocs\noob\coba.php on line 52
+[26-Feb-2022 14:15:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "gagal" in D:\xampp\htdocs\noob\coba.php:46
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\coba.php on line 46
+[26-Feb-2022 14:16:06 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\xampp\htdocs\noob\coba.php on line 41
+[26-Feb-2022 14:18:39 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "berhasil" in D:\xampp\htdocs\noob\coba.php:44
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\coba.php on line 44
+[26-Feb-2022 14:19:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "berhasil" in D:\xampp\htdocs\noob\coba.php:44
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\coba.php on line 44
+[26-Feb-2022 14:19:17 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Undefined constant "berhasil" in D:\xampp\htdocs\noob\coba.php:44
+Stack trace:
+#0 {main}
+  thrown in D:\xampp\htdocs\noob\coba.php on line 44
