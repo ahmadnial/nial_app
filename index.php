@@ -7,6 +7,7 @@ include "conn.php";
 include "update.php";
 include "insert.php";
 include "addpasienbaru.php";
+include "UpdateForm.php";
 ?>
 
 <head>
@@ -277,11 +278,11 @@ include "addpasienbaru.php";
                                 <div class="f-group mt-2">
                                     <label for="">No.RM</label>
                                     <input type="text" id="no_rm" placeholder="Nomor Rekam Medis Pasien" name="no_rm_pasien" class="form-control">
-                                    <button type="button" data-toggle="modal" data-target="#exampleModal" name="addMr" id="addMrID" class="btn btn-success float-right mt-2 mb-3 btn btn-primary btn-sm">add pasien baru</button>
+                                    <!-- <button type="button" data-toggle="modal" data-target="#exampleModal" name="addMr" id="addMrID" class="btn btn-success float-right mt-2 mb-3 btn btn-primary btn-sm">add pasien baru</button> -->
                                 </div>
 
                                 <!--Form Pop Up add Pasien Baru-->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -291,23 +292,23 @@ include "addpasienbaru.php";
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                <form id="contactForm" onsubmit="openModal()" name="contact" role="form">
+                                                <form id="contactForm" name="contact" role="form">
                                                     <div class="f-group">
                                                         <label for="">Nama</label>
-                                                        <input type="text" placeholder="Nama Pasien" id="namaPx" name="i_nm_pasien" class="form-control" required>
+                                                        <input type="text" placeholder="Nama Pasien" id="namaPx" name="ipop_nm_pasien" class="form-control" required>
                                                     </div>
 
                                                     <div class="row g-2">
                                                         <div class="col-md ">
                                                             <div class="form-floating mt-3">
-                                                                <input type="text" class="form-control" id="tl_lahir" name="i_tl_pasien" required>
+                                                                <input type="text" class="form-control" id="tl_lahir" name="ipop_tl_pasien" required>
                                                                 <label for="tl_lahir">Tempat Lahir</label>
                                                             </div>
                                                         </div>
 
                                                         <div class="col-md">
                                                             <div class="form-floating mt-3">
-                                                                <input type="date" name="i_tal_pasien" class="form-control tgl_now" id="ta_lahir" required>
+                                                                <input type="date" name="ipop_tal_pasien" class="form-control tgl_now" id="ta_lahir" required>
                                                                 <label for="ta_lahir">Tanggal Lahir</label>
                                                             </div>
                                                         </div>
@@ -315,7 +316,7 @@ include "addpasienbaru.php";
 
                                                         <div class="col-md">
                                                             <div class="form-floating mt-3">
-                                                                <input type="text" name="i_umur" class="form-control" id="umur" required>
+                                                                <input type="text" name="ipop_umur" class="form-control" id="umur" required>
                                                                 <label for="umur">Umur</label>
                                                             </div>
                                                         </div>
@@ -323,7 +324,7 @@ include "addpasienbaru.php";
 
                                                         <div class="f-group">
                                                             <label for="">Jenis Kelamin</label>
-                                                            <select class="form-select" aria-label="Default select example" id="sex" name="i_sex" required>
+                                                            <select class="form-select" aria-label="Default select example" id="sex" name="ipop_sex" required>
                                                                 <option selected>--Choose--</option>
                                                                 <option value="Laki-Laki">Laki-Laki</option>
                                                                 <option value="Perempuan">Perempuan</option>
@@ -334,13 +335,13 @@ include "addpasienbaru.php";
 
                                                         <div class="mb-3">
                                                             <label for="alamat" class="form-label">Alamat</label>
-                                                            <textarea class="form-control" name="i_alamat" id="alamat" rows="3" required="Silahkan lengkapi dulu!"></textarea>
+                                                            <textarea class="form-control" name="ipop_alamat" id="alamat" rows="3" required="Silahkan lengkapi dulu!"></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="f-group mt-0">
                                                         <label for="">No.Tlp</label>
-                                                        <input type="text" placeholder="Nomor Telepon Pasien" id="no_tlp" name="i_no_tlp" class="form-control">
+                                                        <input type="text" placeholder="Nomor Telepon Pasien" id="no_tlp" name="ipop_no_tlp" class="form-control">
                                                     </div>
 
                                             </div>
@@ -351,7 +352,7 @@ include "addpasienbaru.php";
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!--End Form Pop Up add Pasien Baru-->
 
                                 <div class="f-group mt-4">
@@ -436,7 +437,7 @@ include "addpasienbaru.php";
 
                                         <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
                                             <button type="sumbit" name="save" class="btn btn-success btn btn-primary btn-sm">Simpan</button>
-                                            <button type="button" class="btn btn-warning btn btn-primary btn-sm">Update</button>
+                                            <button type="submit" name="update" class="btn btn-warning btn btn-primary btn-sm">Update</button>
                                             <button type="reset" class="btn btn-danger btn btn-primary btn-sm">Reset</button>
 
                                             </form>
