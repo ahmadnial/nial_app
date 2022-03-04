@@ -8,7 +8,7 @@ include "update.php";
 include "insert.php";
 include "addpasienbaru.php";
 ?>
-
+TES GIT
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
