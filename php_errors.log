@@ -140,3 +140,146 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in D:\xampp\htdocs\noob\coba.php on line 44
+[05-Mar-2022 14:07:49 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:07:49 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:07:50 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:07:50 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:07:50 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:07:50 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:07:50 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:07:50 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:07:56 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:07:56 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:07:56 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:07:56 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:08:07 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:08:07 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:08:07 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[05-Mar-2022 14:08:07 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[05-Mar-2022 14:08:11 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\view.php:196
+Stack trace:
+#0 D:\nial_app\noob\view.php(196): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\view.php on line 196
+[05-Mar-2022 14:19:48 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\view.php:196
+Stack trace:
+#0 D:\nial_app\noob\view.php(196): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\view.php on line 196
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:16:55 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:16:56 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:16:56 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:16:56 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:16:56 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:12 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:13 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:13 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:13 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:29 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:29 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 10:17:29 Asia/Jakarta] PHP Warning:  Undefined array key "id_nm_pasien" in D:\nial_app\noob\ajaxsearch.php on line 5
+[12-Mar-2022 10:17:29 Asia/Jakarta] PHP Fatal error:  Uncaught TypeError: sqlsrv_query(): Argument #1 ($conn) must be of type resource, bool given in D:\nial_app\noob\ajaxsearch.php:8
+Stack trace:
+#0 D:\nial_app\noob\ajaxsearch.php(8): sqlsrv_query(false, 'SELECT * FROM i...')
+#1 {main}
+  thrown in D:\nial_app\noob\ajaxsearch.php on line 8
+[12-Mar-2022 11:02:11 Asia/Jakarta] PHP Warning:  Array to string conversion in D:\nial_app\noob\view.php on line 196

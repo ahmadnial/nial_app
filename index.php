@@ -108,10 +108,10 @@ include "UpdateForm.php";
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="../nial/index.php" class="nav-link">
+                            <a href="tindakan.php" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
-                                    Register
+                                    Tindakan
                                     <span class="right badge badge-danger"></span>
                                 </p>
                             </a>
