@@ -20,9 +20,40 @@
     <link rel="stylesheet" href="dashboard/dist/css/adminlte.min.css">
 
 </head>
-</head>
-<body>
 
+<body>
+        <header>
+            <div class="container bg-success text-white mt-5 col-8 text-center">
+                <h1>TINDAKAN</h1>
+            </div>
+        </header>
+
+        <div class="container-xxl">
+            <div class="row">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-lg-6 col-sm-12">
+                            <form method="POST">
+                            <div class="f-group">
+                                <label for="">Tanggal masuk</label>
+                                <input type="date" id="tgl_msk" name="t_tgl_masuk" class="form-control tgl_now" required>
+                            </div>
+                            <div class="f-group">
+                                <label for="">Masuk Pukul</label>
+                                <input type="time" id="jam_msk" name="t_jam_masuk" class="form-control jam_now" required>
+                            </div>
+                            <div class="f-group">
+                                <label for="">Kode Register</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
  <!-- jQuery -->
  <script src="dashboard/plugins/jquery/jquery.min.js"></script>
                     <!-- Bootstrap 4 -->
