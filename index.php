@@ -6,6 +6,7 @@
 include "conn.php";
 include "update.php";
 include "insert.php";
+include "addpasienbaru-form.php";
 include "addpasienbaru.php";
 include "UpdateForm.php";
 ?>
@@ -193,7 +194,7 @@ include "UpdateForm.php";
         </aside>
 
         <header>
-            <div class="container bg-success text-white mt-5 col-10 text-center">
+            <div class="container bg-success text-white mt-2 col-10 text-center shadow-lg p-2 mb-2 bg-body rounded">
                 <h1>REGISTER PASIEN</h1>
             </div>
         </header>
@@ -279,10 +280,14 @@ include "UpdateForm.php";
                                     <label for="">No.RM</label>
                                     <input type="text" id="no_rm" placeholder="Nomor Rekam Medis Pasien" name="no_rm_pasien" class="form-control">
                                     <!-- <button type="button" data-toggle="modal" data-target="#exampleModal" name="addMr" id="addMrID" class="btn btn-success float-right mt-2 mb-3 btn btn-primary btn-sm">add pasien baru</button> -->
-                                </div>
+                                    <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-2">
+                                        <button type="button" class="btn btn-info float-right btn btn-primary btn-sm" data-bs-toggle="modal1" data-bs-target="#example" data-bs-whatever="@getboot">Cari</button>
+                                        <button type="button" class="btn btn-success float-right btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Tambah Pasien</button>
+                                    </div>
 
-                                <!--Form Pop Up add Pasien Baru-->
-                                <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <!--Form Pop Up add Pasien Baru-->
+
+                                    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -353,124 +358,124 @@ include "UpdateForm.php";
                                         </div>
                                     </div>
                                 </div> -->
-                                <!--End Form Pop Up add Pasien Baru-->
+                                    <!--End Form Pop Up add Pasien Baru-->
 
-                                <div class="f-group mt-4">
-                                    <label for="">Layanan</label>
-                                    <select class="form-select" aria-label="Default select example" id="layanan" name="layanan">
-                                        <option selected>--Choose--</option>
-                                        <option value="Poli Syaraf">Poli Syaraf</option>
-                                        <option value="Poli Penyakit Dalam">Poli Penyakit Dalam</option>
-                                        <option value="Poli Bedah">Poli Bedah</option>
-                                        <option value="Poli Anak">Poli Anak</option>
-                                        <option value="Poli Obsgyn">Poli Obsgyn</option>
-                                    </select>
-                                </div>
-
-                                <div class="f-group mt-2">
-                                    <label for="">Dokter Layanan</label>
-                                    <input type="text" placeholder="Dokter Layanan Tujuan" name="dokter" id="dr_layanan" class="form-control">
-                                </div>
-
-                                <div class="f-group mt-2">
-                                    <label for="">Instalasi</label>
-                                    <select class="form-select" aria-label="Default select example" id="inst" name="inst">
-                                        <option selected>--Choose--</option>
-                                        <option value="RJ">Rawat Jalan</option>
-                                        <option value="RI">Rawat Darurat</option>
-                                    </select>
-                                </div>
-
-                                <div class="f-group mt-2">
-                                    <label for="">Kelas Layanan</label>
-                                    <select class="form-select" id="kls_layanan" aria-label="Default select example" name="kls_layanan">
-                                        <option selected>--Choose--</option>
-                                        <option value="kelas 1">Kelas I</option>
-                                        <option value="kelas 2">Kelas II</option>
-                                        <option value="kelas 3">Kelas III</option>
-                                        <option value="kelas VIP">Kelas VIP</option>
-                                    </select>
-                                </div>
-
-                                <div class="row g-2">
-                                    <div class="col-md">
-                                        <div class="f-group mt-2">
-                                            <label for="">Jaminan</label>
-                                            <select class="form-select" id="jaminan" aria-label="Default select example" name="jaminan">
-                                                <option selected>--Choose--</option>
-                                                <option value="JKN PBI">BPJS PBI</option>
-                                                <option value="JKN NPBI">BPJS NON PBI</option>
-                                                <option value="JAMKESOS">JAMKESOS</option>
-                                                <option value="KEMKES">KEMENKES</option>
-                                                <option value="JAMPERSAL">JAMPERSAL</option>
-                                                <option value="UMUM">UMUM</option>
-                                            </select>
-                                        </div>
+                                    <div class="f-group mt-1">
+                                        <label for="">Layanan</label>
+                                        <select class="form-select" aria-label="Default select example" id="layanan" name="layanan">
+                                            <option selected>--Choose--</option>
+                                            <option value="Poli Syaraf">Poli Syaraf</option>
+                                            <option value="Poli Penyakit Dalam">Poli Penyakit Dalam</option>
+                                            <option value="Poli Bedah">Poli Bedah</option>
+                                            <option value="Poli Anak">Poli Anak</option>
+                                            <option value="Poli Obsgyn">Poli Obsgyn</option>
+                                        </select>
                                     </div>
 
-                                    <div class="col-md">
-                                        <div class="f-group mt-2">
-                                            <label for="floatingInputGrid">No.Peserta</label>
-                                            <input type="text" id="no_peserta" class="form-control" name="no_pes">
-                                        </div>
+                                    <div class="f-group mt-2">
+                                        <label for="">Dokter Layanan</label>
+                                        <input type="text" placeholder="Dokter Layanan Tujuan" name="dokter" id="dr_layanan" class="form-control">
+                                    </div>
+
+                                    <div class="f-group mt-2">
+                                        <label for="">Instalasi</label>
+                                        <select class="form-select" aria-label="Default select example" id="inst" name="inst">
+                                            <option selected>--Choose--</option>
+                                            <option value="RJ">Rawat Jalan</option>
+                                            <option value="RI">Rawat Darurat</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="f-group mt-2">
+                                        <label for="">Kelas Layanan</label>
+                                        <select class="form-select" id="kls_layanan" aria-label="Default select example" name="kls_layanan">
+                                            <option selected>--Choose--</option>
+                                            <option value="kelas 1">Kelas I</option>
+                                            <option value="kelas 2">Kelas II</option>
+                                            <option value="kelas 3">Kelas III</option>
+                                            <option value="kelas VIP">Kelas VIP</option>
+                                        </select>
                                     </div>
 
                                     <div class="row g-2">
                                         <div class="col-md">
                                             <div class="f-group mt-2">
-                                                <label for="">Cara Masuk</label>
-                                                <select class="form-select" id="cara_masuk" aria-label="Default select example" name="cara_masuk">
+                                                <label for="">Jaminan</label>
+                                                <select class="form-select" id="jaminan" aria-label="Default select example" name="jaminan">
                                                     <option selected>--Choose--</option>
-                                                    <option value="Datang Sendiri">Datang Sendiri</option>
-                                                    <option value="Rujukan Puskesmas">Rujukan Puskesmas</option>
-                                                    <option value="Rujukan RSU/RSK">Rujukan RSU/RSK</option>
+                                                    <option value="JKN PBI">BPJS PBI</option>
+                                                    <option value="JKN NPBI">BPJS NON PBI</option>
+                                                    <option value="JAMKESOS">JAMKESOS</option>
+                                                    <option value="KEMKES">KEMENKES</option>
+                                                    <option value="JAMPERSAL">JAMPERSAL</option>
+                                                    <option value="UMUM">UMUM</option>
                                                 </select>
                                             </div>
                                         </div>
 
                                         <div class="col-md">
                                             <div class="f-group mt-2">
-                                                <label for="floatingInputGrid">Faskes Rujukan</label>
-                                                <input type="text" id="f_rujukan" class="form-control" name="f_rujukan">
+                                                <label for="floatingInputGrid">No.Peserta</label>
+                                                <input type="text" id="no_peserta" class="form-control" name="no_pes">
                                             </div>
                                         </div>
 
-                                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
-                                            <button type="sumbit" name="save" class="btn btn-success btn btn-primary btn-sm">Simpan</button>
-                                            <button type="submit" name="update" class="btn btn-warning btn btn-primary btn-sm">Update</button>
-                                            <button type="reset" class="btn btn-danger btn btn-primary btn-sm">Reset</button>
+                                        <div class="row g-2">
+                                            <div class="col-md">
+                                                <div class="f-group mt-2">
+                                                    <label for="">Cara Masuk</label>
+                                                    <select class="form-select" id="cara_masuk" aria-label="Default select example" name="cara_masuk">
+                                                        <option selected>--Choose--</option>
+                                                        <option value="Datang Sendiri">Datang Sendiri</option>
+                                                        <option value="Rujukan Puskesmas">Rujukan Puskesmas</option>
+                                                        <option value="Rujukan RSU/RSK">Rujukan RSU/RSK</option>
+                                                    </select>
+                                                </div>
+                                            </div>
 
-                                            </form>
+                                            <div class="col-md">
+                                                <div class="f-group mt-2">
+                                                    <label for="floatingInputGrid">Faskes Rujukan</label>
+                                                    <input type="text" id="f_rujukan" class="form-control" name="f_rujukan">
+                                                </div>
+                                            </div>
+
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-3">
+                                                <button type="sumbit" name="save" class="btn btn-success btn btn-primary btn-sm">Simpan</button>
+                                                <button type="submit" name="update" class="btn btn-warning btn btn-primary btn-sm">Update</button>
+                                                <button type="reset" class="btn btn-danger btn btn-primary btn-sm">Reset</button>
+
+                                                </form>
+                                            </div>
                                         </div>
-                                    </div>
 
+                                    </div>
                                 </div>
                             </div>
+                            <footer class="main-footer mt-4 text-center">
+                                <div class="float-right d-none d-sm-block">
+                                    <b>Version</b> 3.2.0
+                                </div>
+                                <strong>Copyright &copy; 2014-2021 <a href="">MasAhmad!</a></strong> All rights reserved.
+                            </footer>
+
+                            <!-- Control Sidebar -->
+                            <aside class="control-sidebar control-sidebar-dark">
+                                <!-- Control sidebar content goes here -->
+                            </aside>
+                            <!-- /.control-sidebar -->
                         </div>
-                        <footer class="main-footer mt-4 text-center">
-                            <div class="float-right d-none d-sm-block">
-                                <b>Version</b> 3.2.0
-                            </div>
-                            <strong>Copyright &copy; 2014-2021 <a href="">MasAhmad!</a></strong> All rights reserved.
-                        </footer>
+                        <!-- ./wrapper -->
 
-                        <!-- Control Sidebar -->
-                        <aside class="control-sidebar control-sidebar-dark">
-                            <!-- Control sidebar content goes here -->
-                        </aside>
-                        <!-- /.control-sidebar -->
-                    </div>
-                    <!-- ./wrapper -->
-
-                    <!-- jQuery -->
-                    <script src="dashboard/plugins/jquery/jquery.min.js"></script>
-                    <!-- Bootstrap 4 -->
-                    <script src="dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-                    <!-- AdminLTE App -->
-                    <script src="dashboard/dist/js/adminlte.min.js"></script>
-                    <!-- AdminLTE for demo purposes -->
-                    <!-- <script src="dashboard/dist/js/demo.js"></script>  -->
-                    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                        <!-- jQuery -->
+                        <script src="dashboard/plugins/jquery/jquery.min.js"></script>
+                        <!-- Bootstrap 4 -->
+                        <script src="dashboard/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+                        <!-- AdminLTE App -->
+                        <script src="dashboard/dist/js/adminlte.min.js"></script>
+                        <!-- AdminLTE for demo purposes -->
+                        <!-- <script src="dashboard/dist/js/demo.js"></script>  -->
+                        <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
