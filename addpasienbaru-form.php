@@ -1,6 +1,6 @@
 <?php
-include "addpasienbaru.php" ?>
-
+include "addpasienbaru.php";
+?>
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -8,8 +8,9 @@ include "addpasienbaru.php" ?>
                 <h5 class="modal-title" id="exampleModalLabel">New message</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form method="post" name="insert_form" id="insert_form">
+            <form method="POST" action="">
+                <div class="modal-body">
+
                     <div class="f-group">
                         <label for="">No.RM</label>
                         <input type="text" placeholder="Nomor Rekam Medis" class="form-control">
@@ -65,13 +66,13 @@ include "addpasienbaru.php" ?>
                         <label for="">No.Tlp</label>
                         <input type="text" placeholder="Nomor Telepon Pasien" id="no_tlp" name="no_tlp" class="form-control">
                     </div>
-                    <button type="submit" name="insert" id="insert" class="btn btn-success mt-3 float-right">Save</button>
+                    <button type="submit" name="simpan" class="btn btn-success mt-3 float-right">Save</button>
                     <!-- <button type="button" class="btn btn-secondary mt-3 float-right" data-bs-dismiss="modal">Close</button> -->
-                </form>
-            </div>
-            <div class="modal-footer">
+            </form>
+        </div>
+        <div class="modal-footer">
 
-            </div>
         </div>
     </div>
+</div>
 </div>

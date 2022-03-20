@@ -7,7 +7,7 @@ include "conn.php";
 include "update.php";
 include "insert.php";
 include "addpasienbaru-form.php";
-include "addpasienbaru.php";
+// include "addpasienbaru.php";
 include "UpdateForm.php";
 ?>
 
@@ -24,6 +24,7 @@ include "UpdateForm.php";
     <link rel="stylesheet" href="dashboard/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="dashboard/dist/css/adminlte.min.css">
+    <script src="js/ajax.jquery.min"></script>
 
 </head>
 
@@ -363,12 +364,20 @@ include "UpdateForm.php";
                                     <div class="f-group mt-1">
                                         <label for="">Layanan</label>
                                         <select class="form-select" aria-label="Default select example" id="layanan" name="layanan">
-                                            <option selected>--Choose--</option>
-                                            <option value="Poli Syaraf">Poli Syaraf</option>
+                                            <option disable selected>--Choose--</option>
+                                            <?php
+                                            $sql = sqlsrv_query($conn, "SELECT * FROM TL_layanan");
+                                            while ($data = sqlsrv_fetch_array($sql)) {
+                                            ?>
+                                                <option value="<?= $data['nm_layanan'] ?>"><?= $data['nm_layanan'] ?></option>
+                                            <?php
+                                            }
+                                            ?>
+                                            <!-- <option value="Poli Syaraf">Poli Syaraf</option>
                                             <option value="Poli Penyakit Dalam">Poli Penyakit Dalam</option>
                                             <option value="Poli Bedah">Poli Bedah</option>
                                             <option value="Poli Anak">Poli Anak</option>
-                                            <option value="Poli Obsgyn">Poli Obsgyn</option>
+                                            <option value="Poli Obsgyn">Poli Obsgyn</option> -->
                                         </select>
                                     </div>
 
